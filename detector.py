@@ -4,7 +4,7 @@ import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import string
-
+nltk.download('punkt')
 
 port = PorterStemmer()
 tf = pickle.load(open("vectorizer.pkl","rb"))
