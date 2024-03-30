@@ -32,7 +32,7 @@ def t_message(t):
     
     return " ".join(x)     
 
-if st.button("Predict"):
+if st.button("Check"):
     t_m = t_message(input)
     v_m = tf.transform([t_m])
     r = m.predict(v_m)[0]
