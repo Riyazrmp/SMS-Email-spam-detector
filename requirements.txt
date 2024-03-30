@@ -1,3 +1,6 @@
-streamlit
 nltk
-sklearn
+numpy
+pickle-mixin
+streamlit
+streamlit-option-menu
+scikit-learn
