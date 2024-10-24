@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import string
 nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+nltk.download('all')
 nltk.download('stopwords')
 
 port = PorterStemmer()
